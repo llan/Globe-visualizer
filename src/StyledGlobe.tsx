@@ -16,8 +16,7 @@ const StyledGlobe = () => {
   const getTooltip = (loc: any) => `
       <div style="text-align: center">
         <div><b>${loc.city}</b> ${loc.state}</div>
-        <div>Hologrammer: ${loc.hologrammers}</div>
-        <div>Everyone here: ${loc.names}</div>
+        <div>Hologrammers: ${loc.hologrammers}</div>
       </div>
     `;
 

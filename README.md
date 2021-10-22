@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Hologram Globe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple react app that uses [react-globe.gl](https://github.com/vasturiano/react-globe.gl) to visualize where all hologrammers live. react-globe.gl wraps other libraries that eventual boils down to using threejs.
+
+I've tried using d3.js and that has worked well, but wanted soemthing more prebuilt instead of defining all d3 functions.
+
+## Installation
+
+Nothing to it, just clone the repo and it's using standard [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) with the typescript template.
 
 ## Available Scripts
 
